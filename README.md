@@ -20,6 +20,11 @@ This is a project for measuring the size of sweaters. The project is based on th
 3. 使用tools\test 中的程序进行模型测试
 
 ### Changlogs
+    v1.4.0
+        - 增加早停、 混合训练方法
+        - 增加学习率调度、梯度裁剪训练策略方法
+        - 增加Adaptive Wing Loss、 wing、 ohkm、 坐标回归损失、结构损失函数， 目前使用组合损失函数， 主函数为l2, 使用结构损失和坐标回归为辅助损失函数
+        - 增加数据增强方法
     - v1.3.0
         - aug0704.py 可以生成图像并且xml标签是准确的， 但是会有局部位置出现在图像中， 可以考虑另一台电脑中替换背景的方法， 但是换颜色的方法不变
     - v1.2.0
